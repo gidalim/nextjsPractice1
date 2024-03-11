@@ -19,9 +19,9 @@ const CSR = () => {
 
   return (
     <div>
-      <p>CSR Page</p>
-      <div>{`fact : ${fact}`}</div>
-      <div>{`length : ${length}`}</div>
+      <p className="text-blue-600/100 p-3">CSR Page</p>
+      <div className="text-slate-500 hover:text-blue-600 p-3">{`fact : ${fact}`}</div>
+      <div className="text-slate-500 hover:text-blue-600 p-3">{`length : ${length}`}</div>
     </div>
   );
 };

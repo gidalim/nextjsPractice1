@@ -18,11 +18,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <Link href={"/SSG"}>SSG</Link>
-          <Link href={"/ISR"}>ISR</Link>
-          <Link href={"/SSR"}>SSR</Link>
-          <Link href={"/CSR"}>CSR</Link>
+        <nav className="bg-gray-800 p-3 flex justify-start">
+          <Link className="text-gray-300 p-3" href={"/SSG"}>
+            SSG
+          </Link>
+          <Link className="text-gray-300 p-3" href={"/ISR"}>
+            ISR
+          </Link>
+          <Link className="text-gray-300 p-3" href={"/SSR"}>
+            SSR
+          </Link>
+          <Link className="text-gray-300 p-3" href={"/CSR"}>
+            CSR
+          </Link>
         </nav>
         {children}
       </body>
